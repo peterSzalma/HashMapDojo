@@ -31,4 +31,11 @@ public class HashMap{
         LinkedList list = elements[position];
         list.remove();
     }
+
+    public void getValue(String key){
+        int position = getHash(key);
+        LinkedList list = elements[position];
+        KeyValue keyValue = (KeyValue) list.get(0);
+        System.out.println(keyValue.getValue());
+    }
 }

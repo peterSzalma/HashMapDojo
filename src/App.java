@@ -7,5 +7,7 @@ public class App {
 
         hashMap.remove("DEF");
 
+        hashMap.getValue("ABC");
+
     }
 }
