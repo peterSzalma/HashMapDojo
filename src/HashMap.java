@@ -25,4 +25,10 @@ public class HashMap{
     public int getHash(String key){
         return key.hashCode() % bucketSize;
     }
+
+    public void remove(String key){
+        int position = getHash(key);
+        LinkedList list = elements[position];
+        list.remove();
+    }
 }

@@ -5,5 +5,7 @@ public class App {
         hashMap.add("DEF", 12);
         hashMap.add("GHI", 14);
 
+        hashMap.remove("DEF");
+
     }
 }
