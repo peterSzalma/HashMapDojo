@@ -38,4 +38,11 @@ public class HashMap{
         KeyValue keyValue = (KeyValue) list.get(0);
         System.out.println(keyValue.getValue());
     }
+
+    public void clearAll() {
+        for (LinkedList<KeyValue> element : elements) {
+            element.clear();
+
+        }
+    }
 }

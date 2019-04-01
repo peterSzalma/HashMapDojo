@@ -9,5 +9,7 @@ public class App {
 
         hashMap.getValue("ABC");
 
+        hashMap.clearAll();
+
     }
 }
